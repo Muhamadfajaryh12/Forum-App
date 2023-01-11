@@ -1,0 +1,71 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "cypress/globals":true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "cypress"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": "off",
+        "linebreak-style":0,
+        "eol-last":0,
+        "indent":0,
+        "no-alert":0,
+        "no-console":0,
+        "semi":0,
+        "no-trailing-spaces":0,
+        "no-multi-spaces":0,
+        "quotes":0,
+        "comma-spacing":0,
+        "key-spacing":0,
+        "comma-dangle":0,
+        "padded-blocks":0,
+        "import/prefer-default-export":0,
+        "import/order":0,
+        "space-infix-ops":0,
+        "object-curly-spacing":0,
+        "import/newline-after-import":0,
+        "space-before-blocks":0,
+        "keyword-spacing":0,
+        "jsx-quotes":0,
+        "react/prefer-stateless-function":0,
+        "react/jsx-indent":0,
+        "no-tabs":0,
+        "arrow-spacing":0,
+        "react/jsx-one-expression-per-line":0,
+        "no-multiple-empty-lines":0,
+        "react/jsx-tag-spacing":0,
+        "react/jsx-props-no-spreading":0,
+        "react/jsx-no-useless-fragment":0,
+        "space-before-function-paren":0,
+        "semi-spacing":0,
+        "no-spaced-func":0,
+        "func-call-spacing":0,
+        "react/jsx-indent-props":0,
+        "object-curly-newline":0,
+        "import/no-extraneous-dependencies":0,
+        "react/jsx-equals-spacing":0,
+        "react/self-closing-comp":0,
+        "no-unused-vars":0,
+        "operator-linebreak":0,
+        "react/prop-types":0,
+        "react/button-has-type":0,
+        "jsx-a11y/control-has-associated-label":0,
+        "no-undef":0,
+        "no-underscore-dangle":0
+    }
+}   
